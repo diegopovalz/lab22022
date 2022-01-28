@@ -5,8 +5,7 @@ jdk:
   - oraclejdk8
 addon:
   sonarcloud: true
+install:
+  - "npm install"
 script:
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=diegopovalz -Dsonar.projectKey=lab22022 -Dsonar.sources='./app' -X
-cache:
-  directories:
-    - "node_modules"
