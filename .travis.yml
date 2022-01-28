@@ -1,5 +1,9 @@
 language: node_js
 node_js:
   - 12
-install:
-  - "yarn install"
+jdk:
+  - oraclejdk8
+addon:
+  sonarcloud: true
+script:
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=diegopovalz -Dsonar.projectKey=lab22022 -Dsonar.sources='./app' -X
