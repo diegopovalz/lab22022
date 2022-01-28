@@ -17,16 +17,12 @@ In the folder `app` is located the main code of the app
 
 In the folder `test` is located the unit tests
 
-### Be aware!
-
-This project uses yarn instead of npm
-
 ### How to install it
 
 Execute:
 
 ```shell
-$ yarn install
+$ npm install
 ```
 
 to download the node dependencies
@@ -36,7 +32,7 @@ to download the node dependencies
 Execute:
 
 ```shell
-$ yarn test
+$ npm test
 ```
 
 ### How to get coverage test
@@ -44,5 +40,5 @@ $ yarn test
 Execute:
 
 ```shell
-$ yarn run cover
+$ npm run cover
 ```
