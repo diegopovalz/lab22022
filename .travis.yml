@@ -8,4 +8,4 @@ addon:
 install:
   - "npm install"
 script:
-  - sonar-scanner -Dsonar.login=$SONAR_ACCESS_PROJECT_TOKEN -Dsonar.organization=diegopovalz-github -Dsonar.projectKey=lab22022 -Dsonar.branch=main -Dsonar.sources='./app' -X
+  - sonar-scanner -Dsonar.organization=diegopovalz-github -Dsonar.projectKey=lab22022 -Dsonar.branch=main -Dsonar.sources='./app' -X
