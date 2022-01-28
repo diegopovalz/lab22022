@@ -1,5 +1,5 @@
 import { question } from 'readline-sync';
-import calculator from '../app/calculator.js';
+import calculator from './app/calculator.js';
 
 const firstNum = question('Deme el primer numero: ');
 const secondNum = question('Deme el segundo numero: ');
