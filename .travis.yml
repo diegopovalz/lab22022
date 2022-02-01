@@ -3,7 +3,7 @@ node_js:
   - 12
 jdk:
   - oraclejdk8
-addon:
+addons:
   sonarcloud: true
 install:
   - "npm install"
